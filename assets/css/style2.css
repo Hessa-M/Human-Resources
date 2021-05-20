@@ -1,0 +1,229 @@
+.DMActivity-container{display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-flex-grow:1;-moz-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:80vh;min-height:450px;overflow:hidden}
+
+.DMActivity-body{background-color:#fff;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1 1 auto;-moz-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;overflow:hidden;position:relative}
+
+.DMInbox-content{max-height:100%;-webkit-transform:translateZ(0);transform:translateZ(0)}
+
+.DMInbox-empty,.DMInbox.is-empty .DMInbox-conversations,.DMInbox.is-empty .DMInbox-spinner,.DMInbox.is-empty .DMInbox-toolbar{display:none}
+
+
+.DMInboxItem{border-bottom:1px solid #e1e8ed;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer;display:block;min-height:82px;padding:15px;padding-left:77px;position:relative}
+
+.DMInboxItem:hover{background-color:#f5f8fa!important;text-decoration:none;}
+
+.DMInboxItem.is-unread{background-color:#e8f6ff}
+
+.DMInboxItem.is-muted 
+
+.DMInboxItem-snippet{margin-right:26px}
+
+.DMInboxItem.is-muted 
+ 
+.DMInboxItem-media{right:26px}
+
+.DMInboxItem-avatar{height:52px;left:15px;position:absolute;top:15px;width:52px;}
+
+
+.DMInboxItem-snippet{color:#8899a6;font-size:12px;line-height:16px;max-height:32px;overflow:hidden;position:relative;word-wrap:break-word}
+
+.DMInboxItem-snippet.is-generated{font-style:italic}
+
+.DMInboxItem-media+.DMInboxItem-snippet{padding-right:38px;min-height:28px}
+
+.DMInboxItem-media{height:28px;position:absolute;right:0;top:0;width:28px}
+
+.DMInboxItem-muted{color:#ccd6dd;position:absolute;right:0;top:0}
+
+.DMInboxItem-timestamp{color:#ccd6dd;font-size:13px;position:absolute;right:15px;top:15px;white-space:nowrap}
+
+.u-chromeOverflowFix{-webkit-transform:translateZ(0);transform:translateZ(0)}
+.ms-windows 
+.u-chromeOverflowFix{-webkit-transform:none!important;-ms-transform:none!important;transform:none!important}
+
+
+.DMAvatar{border-radius:100%;font-size:0;height:100%;line-height:0;overflow:hidden;position:relative;width:100%}
+.DMAvatar-container{-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.DMAvatar--1 .DMAvatar-image{height:100%;width:100%}
+.DMAvatar--2 .DMAvatar-image{height:100%;margin-left:-50%;position:static}
+.DMAvatar--2 .DMAvatar-container{height:100%;position:absolute;width:50%}
+.DMAvatar--2 .DMAvatar-container:first-child{border-left:1px solid transparent;right:0}
+.DMAvatar--2 .DMAvatar-container:last-child{left:0}
+.DMAvatar--3 .DMAvatar-container{height:50%;position:absolute;width:50%}
+.DMAvatar--3 .DMAvatar-container:first-child{border-left:1px solid transparent;height:100%;right:0}
+.DMAvatar--3 .DMAvatar-image{width:100%;height:100%}
+.DMAvatar--3 .DMAvatar-container:first-child .DMAvatar-image{margin-left:-50%;position:static;width:auto}
+.DMAvatar--3 .DMAvatar-container:nth-child(2){left:0}
+.DMAvatar--3 .DMAvatar-container:last-child{border-top:1px solid transparent;bottom:0;left:0}
+
+.DMAvatar-image{height:100%;width:100%}
+.DMAvatar--2 .DMAvatar-image{height:100%;margin-left:-50%;position:static}
+.DMAvatar-image{width:100%;height:100%}
+.DMAvatar-image{margin-left:-50%;position:static;width:auto}
+
+.DMInboxItem-title{line-height:19px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.u-posRelative{position:relative!important}
+
+.DMInboxItem-snippet{margin-right:26px}
+.DMInboxItem-snippet{color:#8899a6;font-size:12px;line-height:16px;max-height:32px;overflow:hidden;position:relative;word-wrap:break-word}.DMInboxItem-snippet.is-generated{font-style:italic}.DMInboxItem-media+.DMInboxItem-snippet{padding-right:38px;min-height:28px}
+.Icon--reply:before{content:"\f151"}
+.DMInboxItem-timestamp{color:#ccd6dd;font-size:13px;position:absolute;right:15px;top:15px;white-space:nowrap}
+
+
+.DMActivity-toolbar{-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-justify-content:flex-end;-moz-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;min-width:42px;white-space:nowrap}
+.DMActivity-toolbar>*+*{margin-left:15px}
+
+.DMInbox-toolbar{display:none}
+
+.DMComposeButton{color:#fff!important;font-weight:normal}
+.DMActivity-header{-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;background-color:#fff;border-bottom:1px solid #e1e8ed;-moz-box-sizing:border-box;box-sizing:border-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;min-height:65px;padding:10px 15px;color:#8899a6}
+
+.DMComposer{display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-align-items:flex-end;-moz-box-align:end;-ms-flex-align:end;align-items:flex-end}
+
+.DMComposer-container{background-color:#fff;border-radius:3px;border-style:solid;border-width:1px;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-flex-grow:1;-moz-box-flex:1;-ms-flex-positive:1;flex-grow:1;min-height:38px!important;position:relative;overflow:hidden}
+
+.DMComposer-editor{max-height:96px!important;padding:8px!important;word-break:break-word}
+
+.DMComposer-editor.with-emojiBar{padding-right:40px!important}
+
+.DMComposer-mediaPicker{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}
+
+.DMComposer-send{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}
+
+.DMComposer-editor.is-showPlaceholder:before{color:#ccd6dd;content:attr(data-default-placeholder);margin-left:2px;position:absolute}
+
+.DMComposer.has-thumbnail .DMComposer-editor.is-showPlaceholder:before,.DMComposer.tweet-showing .DMComposer-editor.is-showPlaceholder:before{content:attr(data-attachment-placeholder)}
+
+.DMComposer.from-message-me-card .DMComposer-editor.is-showPlaceholder:before{content:attr(data-from-message-me-card-placeholder)}
+
+.DMComposer-emojiBar{position:absolute;bottom:4px;right:8px;pointer-events:none}
+
+.DMComposer-attachment{border-bottom:1px solid #ccd6dd;display:none;padding:8px;position:relative}
+
+.DMComposer-attachment .thumbnail-wrapper{padding:0!important}
+
+.DMComposer.has-thumbnail 
+
+.DMComposer-attachment,.DMComposer.tweet-showing .DMComposer-attachment{display:block}
+
+.DMComposer-discardTweet{background-color:#222;border-radius:3px;color:#fff;display:none;font-size:12px;height:20px;line-height:1;opacity:.5;-ms-filter:"alpha(opacity=50)";position:absolute;right:3px;top:3px;width:20px}
+
+.DMComposer.tweet-showing .DMComposer-discardTweet{display:block}
+
+.DMComposer-discardTweet:hover,.DMComposer-discardTweet:focus{opacity:.8;-ms-filter:"alpha(opacity=80)"}
+
+.DMComposer-gifSearch .dropdown-menu{max-width:calc(45vw - 150px);min-width:275px}
+
+.DMComposer .TweetBoxExtras{margin:0 5px}
+
+.DMComposer .TweetBoxExtras-item{margin:0}
+
+.DMComposer .tweet-box{border:none!important;min-height:0!important}
+
+.DMComposer-mediaPicker .photo-selector{margin:0!important}
+
+.DMComposer .icon-btn{border:none!important;background:none!important}
+
+.DMComposer-media .thumbnail-container{background-color:transparent!important;box-shadow:none!important;height:auto!important;position:static!important}
+
+.DMComposer-tweet .tweet{padding:0!important}
+
+.DMComposer-send button{padding:9.5px 16px!important}
+
+
+.tweet-form div.rich-editor{display:block;word-wrap:break-word;-webkit-nbsp-mode:normal}
+
+.tweet-form.condensed div.rich-editor{overflow-y:hidden}
+
+.tweet-form div.rich-editor.is-showPlaceholder:before,.tweet-form div.rich-editor:empty:before{content:attr(data-placeholder-default);color:#ccd6dd;position:absolute}
+
+.tweet-form.is-reply div.rich-editor.is-showPlaceholder:before,.tweet-form.is-reply div.rich-editor:empty:before{content:attr(data-placeholder-reply)}
+
+.tweet-form.is-pollingCardComposerOn div.rich-editor.is-showPlaceholder:before{content:attr(data-placeholder-poll-composer-on)}
+
+.tweet-form div.rich-editor.is-showPlaceholder:focus:before,.tweet-form div.rich-editor:empty:focus:before{opacity:.8;-ms-filter:"alpha(opacity=80)"}
+
+.tweet-form div.rich-editor[data-in-composition]:focus:before{opacity:0;-ms-filter:"alpha(opacity=0)"}
+
+.tweet-form.condensed .rich-editor,.tweet-form.condensed .rich-editor.p,.tweet-form.condensed .rich-editor.div{word-wrap:normal;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+.rich-editor em{font-style:normal;background:#fcc}
+
+.tweet-form.condensed .reply-users{display:none}
+
+.tweet-form .reply-users{color:#8899a6;margin-top:-4px;padding:0 10px 8px 10px}
+
+div.rich-editor p,div.rich-editor p+p{margin:0}
+
+.rich-editor a,.rich-editor a.pretty-link:hover b{text-decoration:none!important}
+
+
+.primary-btn,.following.first-hover .follow-btn:hover,.following .follow-btn,.following .follow-button.cancel-hover-style:hover,.following .follow-button,.notifying .device-follow-button,.button-group-item .content.selected{color:#fff;background-color:#1da1f2;background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#0C000000)";border:1px solid #3b88c3;box-shadow:inset 0 1px 0 rgba(255,255,255,0.15)}
+
+.primary-btn:hover,.primary-btn:focus{color:#fff}
+
+.primary-btn:focus,.primary-btn.focus,.following .follow-btn:focus,.following .follow-button:focus,.notifying .device-follow-button:focus,.button-group-item .content.selected:focus{background:#1da1f2;border-color:#fff}.primary-btn:hover{background-color:#1da1f2;background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.15));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)";border-color:#3b88c3}
+
+.primary-btn:active{background-color:#3b88c3;background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000, endColorstr=#26000000)";border-color:#3b88c3}
+
+.primary-btn.btn.disabled,.primary-btn.btn.disabled:hover,.primary-btn.btn[disabled],.primary-btn[aria-disabled=true]{background-color:#1da1f2;background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#0C000000)";border-color:#3b88c3;color:#fff;text-shadow:none;opacity:.5;-ms-filter:"alpha(opacity=50)"}
+
+.primary-btn .messaging-text,.primary-btn .replying-text,.primary-btn.messaging .tweeting-text,.tweet-form.is-reply .primary-btn .tweeting-text{display:none}
+
+.primary-btn.messaging .messaging-text,.tweet-form.is-reply .primary-btn:not(.messaging)
+
+.primary-btn{float:right}
+
+
+
+.tweet-btn .Icon--tweet{left:-2px;top:-5px}
+
+.tweet-btn .Icon--dm{font-size:17px;left:-3px;top:-2px}
+
+.tweet-btn .Icon--reply{font-size:16px;left:-4px;top:-3px}
+
+.large-tweet-btn{padding:7px 10px;border:0;border-radius:5px;box-shadow:none}
+
+.tweet-btn .tweet-new{margin:0 6px -2px 0}
+
+.tweet-btn:focus{background-color:#1b95e0;background:rgba(0,132,180,0.8);border:1px solid #fff}
+
+.tweet-btn:hover{background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.15));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)";border-color:transparent}
+
+.tweet-btn:active{background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000, endColorstr=#26000000)";border-color:transparent;box-shadow:inset 0 1px 4px rgba(0,0,0,0.3);color:#fff}
+
+.tweet-btn:hover,.tweet-btn:active,.tweet-btn.active{background-color:#1b95e0}
+
+.tweet-btn.btn.disabled,.tweet-btn.btn.disabled:hover,.tweet-btn.btn[disabled],.tweet-btn.btn[aria-disabled=true]{background:#1b95e0;border-color:transparent;color:white;opacity:.2;-ms-filter:"alpha(opacity=20)";text-shadow:none}
+
+.btn-link{padding:0;background-color:transparent;background-image:none;border:0;color:#1b95e0;cursor:pointer;border-radius:0;box-shadow:none}
+
+.btn-link:hover,.btn-link:focus{outline:0;text-decoration:underline;box-shadow:none}
+
+.user-actions .follow-link .link-text{display:none}
+
+.user-actions.not-following .follow-link .follow-text{display:inline}
+
+.user-actions.following .follow-link .unfollow-text{display:inline}
+
+.user-actions.pending .follow-link .cancel-text{display:inline}
+
+.feedback-btn{font-size:12px}
+
+.button-group-container .button-group{display:inline-block;padding-right:5px}
+
+.button-group{font-size:0}
+
+.button-group .button-group-item{display:inline-block;padding:0}
+
+.button-group .content{padding-top:1px;padding-bottom:1px;border-radius:0}
+
+.button-group-item .content.selected{background-color:#019ad2}
+
+.button-group .button-group-item:first-of-type .content{border-top-left-radius:4px;border-bottom-left-radius:4px}
+
+.button-group .button-group-item:last-of-type .content{border-top-right-radius:4px;border-bottom-right-radius:4px}
+
+.tweet-form .tweet-btn{display:inline-block}
+
+.button-text{min-width:0;padding:0}.hovercard.profile-card .follow-button .button-text .Icon:not(.Icon--follow){color:inherit}
